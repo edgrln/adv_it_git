@@ -75,6 +75,10 @@ git log -1
 git log -1 -p
 ```
 
+```bash
+git log --pretty=oneline
+```
+
 # Создание SSH ключа
 
 Посомтреть содержимое в папке ~/.ssh/
@@ -276,4 +280,17 @@ gh pr create --base main --head my-feature --title "Добавил фичу" --b
 Удалить удаленную ветку 
 ```bash
 git push origin --delete my-feature
+```
+
+
+
+# Работа с тегами
+Создать тег
+```bash
+git tag v1.0
+```
+
+Опубликовать тег
+```bash
+git push origin v1.0
 ```
