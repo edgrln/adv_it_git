@@ -41,7 +41,7 @@ jobs:
   
   my_deploy:
     runs-on: ubuntu-latest
-  #   needs: [my_testing]
+    needs: [my_testing]
   #   env:
   #     VAR1 : "This is Job Level Variable1"
   #     VAR2 : "This is Job Level Variable2"
