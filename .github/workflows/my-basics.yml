@@ -39,6 +39,9 @@ jobs:
     - name: List current folder
       run : ls -la
   
+    - name: Deploy to Server
+      run: echo "Deploy with token ${{ secrets.TOKEN }}"
+
   my_deploy:
     runs-on: ubuntu-latest
     needs: [my_testing]
