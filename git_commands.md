@@ -272,3 +272,8 @@ base: main ← compare: my-feature
 ```bash
 gh pr create --base main --head my-feature --title "Добавил фичу" --body "Описание изменений"
 ```
+
+Удалить удаленную ветку 
+```bash
+git push origin --delete my-feature
+```
